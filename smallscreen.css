@@ -46,16 +46,16 @@ html,body{
 
 #hero_cs{
     color: #CC9835; 
-    font-size: 155px;
+    font-size: 170px;
 }
 
-#hero_subs{
+#sub_colored{
     color: #CC9835; 
 }
 
 #hero_title{
     margin-bottom: 0;
-    font-size: 140px;
+    font-size: 150px;
     /* font-family: 'Bebas Neue', cursive; */
 }
 
@@ -72,6 +72,24 @@ html,body{
     border-style:none;
     color:rgb(233, 233, 233);
     font-size: 60px;
+}
+
+
+.about{
+    width: 100%;
+    height: auto;
+    font-family: 'Jost', sans-serif;
+    font-size: 50px;
+    /* background-color: rgb(235, 232, 232); */
+    background-color: #CC9835;
+}
+
+.about_content_wrapper{
+    padding: 13% 0;
+    width: 75%;
+    margin: auto;
+    color: white;
+    text-align: justify;
 }
 
 
