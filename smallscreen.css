@@ -92,4 +92,81 @@ html,body{
     text-align: justify;
 }
 
+.testimonials{
+    background-color:black;
+    height: auto;
+    width: 100%;
+
+}
+
+.testi_item{
+    background-color: rgb(31, 30, 30);
+    margin: 10% 5%;
+    padding: 5%;
+}
+
+.testi_content{
+    
+    position:relative;
+    /* border: 2px;
+    border-color: white;
+    border-style: solid; */
+    
+}
+
+.testi_message{
+    color: white;
+    position: relative;
+    font-family: 'Jost', sans-serif;
+    height: auto;
+    font-size: 20px;
+    padding: 10% 5%;
+    padding-bottom: 5%;
+    text-align: justify;
+}
+
+#in_quotes, #out_quotes{
+    position: absolute;
+    max-height: 180px;
+    max-width: 180px;
+    opacity: 0.3;
+}
+
+#in_quotes{
+    top: 5%;
+    left: 0;
+    
+}
+
+#out_quotes{
+    bottom: 0;
+    right: 0;
+}
+
+.testi_sender{
+    text-align:center;
+    margin: 0 10%;
+}
+
+
+#testi_initial{
+    font-size: 80px;
+}
+
+#testi_sender_name{
+    color: #CC9835;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    
+}
+
+
+.testi_flexbox{
+    padding: 5%;
+}
+
+
+
+
+
 
