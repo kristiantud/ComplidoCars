@@ -182,7 +182,7 @@ html,body{
 
 .email_section{
     text-align:center;
-    padding: 0 10%;
+    margin: 0 10%;
 }
 
 #email_message{
@@ -195,24 +195,24 @@ html,body{
 
 #message{
     height: 400px;
-    width: 100%;
+    width: 90%;
     background-color: black;
     border-color: white;
     border-width: thick;
     color: white;
     font-family: 'Jost',sans-serif;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .email_section input{
-    height: 80px;
-    width: 100%;
+    height: 100px;
+    width: 90%;
     background-color:black;
     border-color:white;
     border-width: thick;
     color: white; 
     font-family: 'Jost', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     
 }
 
@@ -261,6 +261,7 @@ html,body{
 
 .bottom_content{
     padding: 3%;
+
 }
 
 .bottom_footer{
