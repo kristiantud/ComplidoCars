@@ -150,13 +150,13 @@ html,body{
 
 
 #testi_initial{
-    font-size: 80px;
+    font-size: 90px;
 }
 
 #testi_sender_name{
     color: #CC9835;
     font-family: 'Bebas Neue', cursive;
-    font-size: 70px;
+    font-size: 80px;
     
 }
 
@@ -166,7 +166,119 @@ html,body{
 }
 
 
+.main_footer{
+    height: auto;
+    width: auto;
+    background-color:rgb(31, 30, 30);
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+
+.input_group{
+    padding-bottom: 7%;
+    position: relative;
+
+}
+
+.email_section{
+    text-align:center;
+    padding: 0 10%;
+}
+
+#email_message{
+    display:inline-block;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 100px;
+    padding-bottom: 5%;
+}
+
+#message{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    border-color: white;
+    border-width: thick;
+    color: white;
+    font-family: 'Jost',sans-serif;
+    font-size: 50px;
+}
+
+.email_section input{
+    height: 80px;
+    width: 100%;
+    background-color:black;
+    border-color:white;
+    border-width: thick;
+    color: white; 
+    font-family: 'Jost', sans-serif;
+    font-size: 50px;
+    
+}
+
+.email_section hr{
+    background-color:#CC9835;
+    width: 20%;
+    height: 5px;
+
+}
+
+#email_button{
+    margin-top: 2%;
+    padding: 2% 0;
+    width: 60%;
+    background-color: #CC9835;
+    color: white;
+    /* border: 10px solid black; */
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+}
 
 
+#link_span{
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.link_section{
+    text-align:center;
+    /* display:block; */
+    padding-top: 10%;
+}
+
+#icon{
+    height: 65px;
+    width: 65px;
+    padding: 3%;
+}
+
+.inputs{
+    padding-top: 8%;
+}
 
 
+.bottom_content{
+    padding: 3%;
+}
+
+.bottom_footer{
+    text-align:center;
+    height: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+}
+
+#footer_cs{
+    font-size: 80px;
+    color:rgb(204, 152, 53);
+}
+
+
+#footer_owner{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+}
