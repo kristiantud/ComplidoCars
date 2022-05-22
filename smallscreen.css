@@ -12,6 +12,7 @@ font-family: 'Roboto Condensed', sans-serif;
 
 html,body{
     margin:0;
+    overflow-x: hidden;
 
 }
 
