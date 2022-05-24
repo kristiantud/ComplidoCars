@@ -2,9 +2,9 @@
 <html>
     <head>
         <title>ComplidoCars</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="./images/icon.jpg">
-        <link rel="stylesheet" media="screen and (min-width: 400px)" href="./smallscreen.css">
-        
+        <link rel="stylesheet" href="./smallscreen.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -25,7 +25,7 @@
                     <div class="title_wrapper">
                         <span id="hero_title" style="font-family: 'Bebas Neue', cursive;"><span id="hero_cs">C</span>omplido <span id="hero_cs">C</span>ars</span>
                         <br><span id="hero_subtitle">Bringing you <span id="sub_colored">quality</span> vehicles with <span id="sub_colored">excellent</span> service.</span>
-                        <br><br><br><button>Scroll Down</button>
+                        <br><br><button>Scroll Down</button>
                     </div>
                 </div>
             
@@ -100,7 +100,9 @@
                                 <div class="input_group">
                                     <textarea id="message" type="text" name="message" required="" placeholder="Message"></textarea>    
                                 </div>
-    
+
+                                <span id="form_submit_note"><span style="color:#CC9835;">Note:</span> Pressing send will take you to FormSubmit. This is done to prevent spam.</span>
+                                <br>
                                 <button id="email_button" type="submit">send</button>
                             </form>
                         </div>

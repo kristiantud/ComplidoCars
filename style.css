@@ -1,0 +1,356 @@
+/* headers 
+font-family: 'Oswald', sans-serif; 
+font-family: 'Koulen', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+
+
+
+
+
+*/
+
+
+html,body{
+    margin:0;
+    padding: 0;
+    overflow-x:hidden;
+
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    text-align: left;
+    background-color: gray;
+    /* background-image: url('./images/header.jpg'); */
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:initial;
+
+}
+
+.hero_bg{
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position:relative;
+    
+}
+
+
+
+.title_wrapper{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    color: white;
+}
+
+#hero_title{
+    margin-bottom: 0;
+    font-size: 95px;
+    /* font-family: 'Bebas Neue', cursive; */
+}
+
+#hero_subtitle{
+    font-family: 'Jost', sans-serif;
+    font-size: 25px;
+}
+
+.hero button{
+    margin-top: 10px;
+    background-color: #CC9835;
+    padding: 6px 70px;
+    font-family: 'Bebas Neue', cursive;
+    border-style:none;
+    color:rgb(233, 233, 233);
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+@media (max-width: 500px){
+    html,body{
+        margin:0;
+        padding: 0;
+        overflow-x: hidden;
+    
+    }
+    
+    .hero {
+        height: 100vh;
+        width: 100%;
+        text-align: left;
+        background-color: gray;
+        background-image: url('./images/header.jpg');
+    
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: 100vh;
+    
+    }
+    
+    .hero_bg{
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        position:relative;
+        
+    }
+    
+    
+    
+    .title_wrapper{
+        position: absolute;
+        top: 35%;
+        left: 5%;
+        color: white;
+        width: 90%;
+    }
+    
+    #hero_cs{
+        color: #CC9835; 
+        font-size: 180px;
+    }
+    
+    #sub_colored{
+        color: #CC9835; 
+    }
+    
+    #hero_title{
+        margin-bottom: 0;
+        font-size: 150px;
+        /* font-family: 'Bebas Neue', cursive; */
+    }
+    
+    #hero_subtitle{
+        font-family: 'Jost', sans-serif;
+        font-size: 55px;
+    }
+    
+    .hero button{
+        margin-top: 25px;
+        background-color: #CC9835;
+        padding: 10px 110px;
+        font-family: 'Bebas Neue', cursive;
+        border-style:none;
+        color:rgb(233, 233, 233);
+        font-size: 60px;
+    }
+    
+    
+    .about{
+        width: 100%;
+        height: auto;
+        font-family: 'Jost', sans-serif;
+        font-size: 40px;
+        /* background-color: rgb(235, 232, 232); */
+        background-color: #CC9835;
+    }
+    
+    .about_content_wrapper{
+        padding: 13% 0;
+        width: 75%;
+        margin: auto;
+        color: white;
+        text-align: justify;
+    }
+    
+    .testimonials{
+        background-color:black;
+        height: auto;
+        width: 100%;
+    
+    }
+    
+    .testi_item{
+        background-color: rgb(31, 30, 30);
+        margin: 10% 5%;
+        padding: 5%;
+    }
+    
+    .testi_content{
+        
+        position:relative;
+        /* border: 2px;
+        border-color: white;
+        border-style: solid; */
+        
+    }
+    
+    .testi_message{
+        color: white;
+        position: relative;
+        font-family: 'Jost', sans-serif;
+        height: auto;
+        font-size: 40px;
+        padding: 10% 5%;
+        padding-bottom: 5%;
+        text-align: justify;
+    }
+    
+    #in_quotes, #out_quotes{
+        position: absolute;
+        max-height: 180px;
+        max-width: 180px;
+        opacity: 0.3;
+    }
+    
+    #in_quotes{
+        top: 5%;
+        left: 0;
+        
+    }
+    
+    #out_quotes{
+        bottom: 0;
+        right: 0;
+    }
+    
+    .testi_sender{
+        text-align:center;
+        margin: 0 10%;
+    }
+    
+    
+    #testi_initial{
+        font-size: 90px;
+    }
+    
+    #testi_sender_name{
+        color: #CC9835;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 80px;
+        
+    }
+    
+    
+    .testi_flexbox{
+        padding: 5%;
+    }
+    
+    
+    .main_footer{
+        height: auto;
+        width: auto;
+        background-color:rgb(31, 30, 30);
+        padding-top: 15%;
+        padding-bottom: 5%;
+    }
+    
+    .input_group{
+        padding-bottom: 7%;
+        position: relative;
+    
+    }
+    
+    .email_section{
+        text-align:center;
+        margin: 0 10%;
+    }
+    
+    #email_message{
+        display:inline-block;
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        font-size: 100px;
+        padding-bottom: 5%;
+    }
+    
+    #message{
+        height: 400px;
+        width: 90%;
+        background-color: black;
+        border-color: white;
+        border-width: thick;
+        color: white;
+        font-family: 'Jost',sans-serif;
+        font-size: 40px;
+    }
+    
+    .email_section input{
+        height: 100px;
+        width: 90%;
+        background-color:black;
+        border-color:white;
+        border-width: thick;
+        color: white; 
+        font-family: 'Jost', sans-serif;
+        font-size: 40px;
+        
+    }
+    
+    .email_section hr{
+        background-color:#CC9835;
+        width: 20%;
+        height: 5px;
+    
+    }
+    
+    #email_button{
+        margin-top: 2%;
+        padding: 2% 0;
+        width: 60%;
+        background-color: #CC9835;
+        color: white;
+        /* border: 10px solid black; */
+        font-size: 60px;
+        font-family: 'Bebas Neue', cursive;
+    }
+    
+    
+    #link_span{
+        /* font-family: 'Bebas Neue', cursive; */
+        font-family: 'Jost', sans-serif;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .link_section{
+        text-align:center;
+        /* display:block; */
+        padding-top: 10%;
+    }
+    
+    #icon{
+        height: 65px;
+        width: 65px;
+        padding: 3%;
+    }
+    
+    .inputs{
+        padding-top: 8%;
+    }
+    
+    
+    .bottom_content{
+        padding: 3%;
+        padding-bottom: 7%;
+    
+    }
+    
+    .bottom_footer{
+        text-align:center;
+        height: auto;
+        background-color: black;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 60px;
+    }
+    
+    #footer_cs{
+        font-size: 80px;
+        color:rgb(204, 152, 53);
+    }
+    
+    
+    #footer_owner{
+        font-family: 'Jost', sans-serif;
+        font-size: 20px;
+    }
+    
+}
