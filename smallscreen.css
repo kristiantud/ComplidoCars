@@ -176,7 +176,7 @@ html,body{
 .main_footer{
     height: auto;
     width: auto;
-    background-color:rgb(31, 30, 30);
+    background-color:rgb(15, 15, 15);
     padding-top: 15%;
     padding-bottom: 5%;
 }
@@ -257,7 +257,7 @@ html,body{
 #link_span{
     /* font-family: 'Bebas Neue', cursive; */
     font-family: 'Jost', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     color: white;
 }
 
@@ -268,9 +268,14 @@ html,body{
 }
 
 #icon{
-    height: 25px;
-    width: 25px;
-    padding: 2%;
+    height: 24px;
+    width: 24px;
+    padding: 1.5%;
+    margin: 1%;
+    /* border-style: solid;
+    border-width: thin;
+    border-color: #CC9835;
+    border-radius: 10%; */
 }
 
 .inputs{
