@@ -32,7 +32,7 @@ html,body{
 
 .hero_bg{
     height: 100%;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.8);
     position:relative;
     
 }
@@ -42,9 +42,9 @@ html,body{
 .title_wrapper{
     position: absolute;
     top: 35%;
-    left: 5%;
+    left: 9%;
     color: white;
-    width: 90%;
+    width: 80%;
 }
 
 #hero_cs{
@@ -68,12 +68,14 @@ html,body{
 }
 
 .hero button{
-    background-color: #CC9835;
+    background:rgba(204, 152, 53,0);
     padding: 3px 55px;
-    font-family: 'Bebas Neue', cursive;
-    border-style:none;
+    font-family: 'Jost', sans-serif;
+    border-style:solid;
+    border-width: 2px;
+    border-color: #CC9835;
     color:rgb(233, 233, 233);
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
@@ -82,8 +84,7 @@ html,body{
     height: auto;
     font-family: 'Jost', sans-serif;
     font-size: 20px;
-    /* background-color: rgb(235, 232, 232); */
-    background-color: #CC9835;
+    background-color: #91691f;
 }
 
 .about_content_wrapper{
@@ -105,6 +106,9 @@ html,body{
     background-color: rgb(31, 30, 30);
     margin: 10% 5%;
     padding: 5%;
+    border-style: solid;
+    border-color: #CC9835;
+    border-width: thin;
 }
 
 .testi_content{
@@ -168,6 +172,7 @@ html,body{
 }
 
 
+
 .main_footer{
     height: auto;
     width: auto;
@@ -177,7 +182,7 @@ html,body{
 }
 
 .input_group{
-    padding-bottom: 7%;
+    padding-bottom: 5%;
     position: relative;
 
 }
@@ -192,15 +197,15 @@ html,body{
     font-family: 'Bebas Neue', cursive;
     color: white;
     font-size: 50px;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 
 #message{
     height: 200px;
     width: 100%;
     background-color: black;
-    border-color: white;
-    border-width: thick;
+    border-color:  white;
+    border-width: thin;
     color: white;
     font-family: 'Jost',sans-serif;
     font-size: 20px;
@@ -213,8 +218,8 @@ html,body{
     height: 50px;
     width: 100%;
     background-color:black;
-    border-color:white;
-    border-width: thick;
+    border-color: white;
+    border-width: thin;
     color: white; 
     font-family: 'Jost', sans-serif;
     font-size: 20px;
@@ -225,7 +230,8 @@ html,body{
 .email_section hr{
     background-color:#CC9835;
     width: 30%;
-    height: 2px;
+    height: 3px;
+    border-style: none;
 
 }
 
@@ -240,11 +246,11 @@ html,body{
     margin-top: 10%;
     padding: 1% 0;
     width: 60%;
-    background-color: #CC9835;
+    background-color: black;
     color: white;
-    /* border: 10px solid black; */
-    font-size: 30px;
-    font-family: 'Bebas Neue', cursive;
+    border: thin solid #CC9835;
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
 }
 
 
@@ -295,5 +301,5 @@ html,body{
 
 #footer_owner{
     font-family: 'Jost', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
 }
