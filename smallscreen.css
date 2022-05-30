@@ -84,7 +84,7 @@ html,body{
     height: auto;
     font-family: 'Jost', sans-serif;
     font-size: 20px;
-    background-color: #91691f;
+    background-color: #a57722;
 }
 
 .about_content_wrapper{
@@ -95,6 +95,11 @@ html,body{
     text-align: justify;
 }
 
+#about_title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
 .testimonials{
     background-color:black;
     height: auto;
@@ -103,7 +108,7 @@ html,body{
 }
 
 .testi_item{
-    background-color: rgb(31, 30, 30);
+    background-color: rgb(17, 17, 17);
     margin: 10% 5%;
     padding: 5%;
     border-style: solid;
@@ -210,7 +215,7 @@ html,body{
     font-family: 'Jost',sans-serif;
     font-size: 20px;
     box-sizing: border-box;
-    padding-left: 7%;
+    padding-left: 3%;
 }
 
 .email_section input{
@@ -223,7 +228,7 @@ html,body{
     color: white; 
     font-family: 'Jost', sans-serif;
     font-size: 20px;
-    padding-left: 7%;
+    padding-left: 3%;
     
 }
 

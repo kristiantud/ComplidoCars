@@ -38,33 +38,320 @@ html,body{
 }
 
 
+#hero_cs{
+    color: #CC9835; 
+    font-size: 105px;
+}
+
 
 .title_wrapper{
     position: absolute;
     top: 35%;
-    left: 10%;
+    left: 20%;
     color: white;
 }
 
 #hero_title{
-    margin-bottom: 0;
+    display: block;
+    margin-bottom: -30px;
     font-size: 95px;
     /* font-family: 'Bebas Neue', cursive; */
 }
 
 #hero_subtitle{
     font-family: 'Jost', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
+    display: block;
+
 }
 
 .hero button{
-    margin-top: 10px;
-    background-color: #CC9835;
-    padding: 6px 70px;
-    font-family: 'Bebas Neue', cursive;
-    border-style:none;
+    background:rgba(204, 152, 53,0);
+    padding: 3px 55px;
+    font-family: 'Jost', sans-serif;
+    border-style:solid;
+    border-width: 2px;
+    border-color: #CC9835;
     color:rgb(233, 233, 233);
-    font-size: 25px;
+    font-size: 20px;
+    box-shadow: inset 0 0 0 0 #CC9835;
+}
+
+.hero button:hover{
+    cursor: pointer;
+    box-shadow: inset 400px 0 0 0 #CC9835;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+}
+
+#sub_colored{
+    color: #CC9835; 
 }
 
 
+.about{
+    width: 100%;
+    height: auto;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    background-color: #91691f;
+}
+
+.about_content_wrapper{
+    padding: 8% 0;
+    width: 40%;
+    margin: auto;
+    color: white;
+    text-align: justify;
+}
+
+#about_title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+}
+
+
+.testimonials{
+    background-color:black;
+    height: auto;
+    width: 100%;
+
+}
+
+
+.testi_item{
+    background-color: rgb(17, 17, 17);
+    margin: 3% 2%;
+    padding: 2%;
+    border-style: solid;
+    border-color: #CC9835;
+    border-width: thin;
+    
+}
+
+.testi_content{
+    width: 850px;
+    position:relative;
+    /* border: 2px;
+    border-color: white;
+    border-style: solid; */
+    
+}
+
+.testi_message{
+    color: white;
+    position: relative;
+    font-family: 'Jost', sans-serif;
+    height: auto;
+    font-size: 20px;
+    padding: 5% 8%;
+    padding-bottom: 5%;
+    text-align: justify;
+}
+
+#in_quotes, #out_quotes{
+    position: absolute;
+    max-height: 70px;
+    max-width: 70px;
+    opacity: 0.3;
+}
+
+#in_quotes{
+    top: 5%;
+    left: 0;
+    
+}
+
+#out_quotes{
+    bottom: 0;
+    right: 0;
+}
+
+.testi_sender{
+    text-align:center;
+    margin: 0 10%;
+}
+
+
+#testi_initial{
+    font-size: 60px;
+}
+
+#testi_sender_name{
+    color: #CC9835;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    
+}
+
+
+.testi_flexbox{
+    padding: 5% 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.footer{
+    background-image: url(./images/cars2.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:initial;
+}
+
+.main_footer{
+    height: auto;
+    width: auto;
+    background-color:rgba(0,0,0, 0.9);
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+.input_group{
+    padding-bottom: 5%;
+    position: relative;
+
+}
+
+.email_section{
+    text-align:center;
+    margin: 0 35%;
+}
+
+#email_message{
+    display:inline-block;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 65px;
+    padding-bottom: 2%;
+}
+
+#message{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    border-color:  white;
+    border-width: thin;
+    color: white;
+    font-family: 'Jost',sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-left: 3%;
+}
+
+.email_section input{
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    background-color:black;
+    border-color: white;
+    border-width: thin;
+    color: white; 
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    padding-left: 3%;
+    
+}
+
+.email_section hr{
+    background-color:#CC9835;
+    width: 30%;
+    height: 3px;
+    border-style: none;
+
+}
+
+#form_submit_note{
+    font-family: 'Jost', sans-serif;
+    color:white;
+    font-style: italic;
+    font-size: 18px;
+}
+
+#email_button{
+    margin-top: 10%;
+    padding: 1% 0;
+    width: 60%;
+    background-color: black;
+    color: white;
+    border: thin solid #CC9835;
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    box-shadow: inset 0 0 0 0 #CC9835;
+}
+
+#email_button:hover{
+    box-shadow: inset 500px 0 0 0 #CC9835;
+    cursor: pointer;
+    moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+
+#link_span{
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.link_section{
+    text-align:center;
+    /* display:block; */
+    padding-top: 3%;
+}
+
+#icon{
+    height: 24px;
+    width: 24px;
+    padding: 0.6%;
+    /* margin: 1%; */
+    /* border-style: solid;
+    border-width: thin;
+    border-color: #CC9835;
+    border-radius: 10%; */
+}
+
+.inputs{
+    padding-top: 4%;
+    /* width: 900px; */
+}
+
+
+.bottom_content{
+    padding: 2%;
+    padding-bottom: 2%;
+
+}
+
+.bottom_footer{
+    
+    text-align:center;
+    height: auto;
+    background-color: rgb(0,0,0);
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+#footer_cs{
+    font-size: 40px;
+    color:rgb(204, 152, 53);
+}
+
+
+#footer_owner{
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    display: block;
+    margin-top: -2px;
+}
