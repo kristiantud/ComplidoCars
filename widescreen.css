@@ -22,7 +22,7 @@ html,body{
     width: 100%;
     text-align: left;
     background-color: gray;
-    /* background-image: url('./images/header.jpg'); */
+    background-image: url('./images/cars.jpg');
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
@@ -65,7 +65,7 @@ html,body{
 
 }
 
-.hero button{
+#hero_button {
     background:rgba(204, 152, 53,0);
     padding: 3px 55px;
     font-family: 'Jost', sans-serif;
@@ -79,7 +79,7 @@ html,body{
 
 .hero button:hover{
     cursor: pointer;
-    box-shadow: inset 400px 0 0 0 #CC9835;
+    box-shadow: inset 400px 0 0 0 #CC9835 !important;
     moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
