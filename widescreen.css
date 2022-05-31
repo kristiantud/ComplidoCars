@@ -98,14 +98,16 @@ html,body{
     font-family: 'Jost', sans-serif;
     font-size: 20px;
     background-color: #91691f;
+
 }
 
 .about_content_wrapper{
-    padding: 8% 0;
+    padding: 5% 2%;
     width: 40%;
     margin: auto;
     color: white;
     text-align: justify;
+
 }
 
 #about_title{
@@ -152,11 +154,17 @@ html,body{
     text-align: justify;
 }
 
+#testi_message_span{
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+}
+
 #in_quotes, #out_quotes{
     position: absolute;
-    max-height: 70px;
-    max-width: 70px;
-    opacity: 0.3;
+    max-height: 120px;
+    max-width: 120px;
+    opacity: 0.2;
 }
 
 #in_quotes{
@@ -209,7 +217,7 @@ html,body{
 .main_footer{
     height: auto;
     width: auto;
-    background-color:rgba(0,0,0, 0.9);
+    background-color:rgba(0,0,0, 0.8);
     padding-top: 5%;
     padding-bottom: 1%;
 }
@@ -222,7 +230,11 @@ html,body{
 
 .email_section{
     text-align:center;
-    margin: 0 35%;
+    /* margin: 0 35%; */
+    width: 500px;
+    /* padding: 4% 5%; */
+    /* background-color: rgba(0,0,0,0.7); */
+    margin: auto;
 }
 
 #email_message{
