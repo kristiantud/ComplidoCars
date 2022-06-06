@@ -109,8 +109,8 @@ html,body{
 
 .testi_item{
     background-color: rgb(17, 17, 17);
-    margin: 10% 5%;
-    padding: 5%;
+    margin: 10% 0;
+    padding: 0 5%;
     border-style: solid;
     border-color: #CC9835;
     border-width: thin;
@@ -129,9 +129,11 @@ html,body{
     color: white;
     position: relative;
     font-family: 'Jost', sans-serif;
-    height: auto;
-    font-size: 20px;
-    padding: 10% 2%;
+    height: 150px;
+    overflow-y: scroll;
+    font-size: 18px;
+    margin: 10% 5%;
+    margin-bottom: 0;
     padding-bottom: 5%;
     text-align: center;
 }
@@ -140,7 +142,7 @@ html,body{
     position: absolute;
     max-height: 100px;
     max-width: 100px;
-    opacity: 0.3;
+    opacity: 0.1;
 }
 
 #in_quotes{
@@ -173,7 +175,7 @@ html,body{
 
 
 .testi_flexbox{
-    padding: 5%;
+    padding: 10% 5%;
 }
 
 
@@ -272,9 +274,9 @@ html,body{
     padding-top: 10%;
 }
 
-#icon{
-    height: 24px;
-    width: 24px;
+#icon_links{
+    height: 35px;
+    width: 35px;
     padding: 1.5%;
     margin: 1%;
     /* border-style: solid;
@@ -312,4 +314,29 @@ html,body{
 #footer_owner{
     font-family: 'Jost', sans-serif;
     font-size: 13px;
+}
+
+
+/* webkit stuff */
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+    width: 12px;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    border: 1px solid #ffffffa1;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: transparent;
 }
