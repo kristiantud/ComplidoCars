@@ -7,8 +7,8 @@
         <link rel="icon" href="./images/icon.jpg">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-        <link rel="stylesheet" media="(max-width: 500px)" href="./smallscreen.css">
-        <link rel="stylesheet" media="(min-width: 501px)" href="./widescreen.css">
+        <link rel="stylesheet" media="(max-width: 500px)" href="./styles/smallscreen.css">
+        <link rel="stylesheet" media="(min-width: 501px)" href="./styles/widescreen.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -40,6 +40,8 @@
                             <button id="hero_button">Scroll Down</button>
                         </div>
                     </div>
+                </div>
+                <div class="hero_bottom">
                 </div>
             
             </div>
@@ -90,9 +92,15 @@
                           
                           <div class="carousel-item active">
                             <div class="testi_item">
+                                <div class="scroll_indicator">
+                                    <span>Scroll down to read more</span>
+                                    <br>
+                                    <div class="section"></div>
+                                </div>
                                 <div class="testi_content">
                                     <image src="./images/quotes1.png" id="in_quotes"></image>
                                     <div class="testi_message">
+        
                                         <span>Isaiah was extremely knowledgeable, friendly and professional throughout the entire process. [Upon exploring my options] I went with SMP not only because they had the vehicle I wanted but the level of customer service Isaiah provided was top notch - and WAY better than the other dealerships I did visit. <br><br>He genuinely cares about his clients by cultivating a solid relationship to better understand their needs so he can put them in a vehicle that checks all their boxes. I am extremely happy with my purchase, and I would recommend anyone taking the time to meet Isaiah if they are in the market for a new vehicle.</span>
                                     </div>
                                     <image src="./images/quotes2.png" id="out_quotes"></image>
@@ -174,6 +182,8 @@
                         <a href="https://www.instagram.com/isaiahsmp/" target="_blank"><image src="./images/icons/ig.png" id="icon_links"></image></a>
                         <a href="https://www.smpchev.ca/" target="_blank"><image src="./images/icons/smp.png" id="icon_links"></image></a>
                     </div>
+
+                
                 </div>
                 
 
@@ -192,8 +202,10 @@
         
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="./js/jquery.waypoints.min.js"></script>
+        <script src="./js/scripts.js"></script>
         <!-- <script src="./testimonies.js"></script> -->
     </body>
 </html>
