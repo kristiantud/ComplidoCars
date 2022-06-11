@@ -108,17 +108,21 @@ html,body{
 }
 
 .scroll_indicator{
-    /* opacity: 0; */
+    text-align:center;
+    padding-top: 105px;
+    z-index: 3;
+    opacity: 1;
     position: absolute;
-    height: 150px;
-    background:rgba(0, 0, 0, 0.8);
+    height: auto;
+    background:rgba(32, 32, 32, 0.95);
     color: #CC9835;
-    padding-top: 50px;
     top:0;
     bottom:0;
     left:0;
     right:0;
-    margin: auto;
+    transition: 0.5s;
+    font-size: 23px;
+    font-family: 'Jost', sans-serif;
     
 }
 
@@ -150,11 +154,10 @@ html,body{
     }
 }
 
-
 .testi_item{
     background-color: rgb(17, 17, 17);
-    margin: 10% 0;
-    padding: 0 5%;
+    /* margin: 10% 0; */
+    padding: 0 3.5%;
     border-style: solid;
     border-color: #CC9835;
     border-width: thin;
@@ -178,8 +181,8 @@ html,body{
     font-size: 18px;
     margin: 10% 5%;
     margin-bottom: 0;
-    padding: 0 2%;
-    padding-bottom: 5%;
+    padding: 0 6%;
+    
     text-align: center;
     z-index:1;
 }
@@ -224,7 +227,7 @@ html,body{
 
 
 .testi_flexbox{
-    padding: 10% 5%;
+    padding: 10% 8%;
 }
 
 
@@ -368,7 +371,7 @@ html,body{
 
 
 /* webkit stuff */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     -webkit-appearance: none;
 }
 
@@ -389,4 +392,4 @@ html,body{
 ::-webkit-scrollbar-track {
     border-radius: 10px;
     background-color: transparent;
-}
+} */

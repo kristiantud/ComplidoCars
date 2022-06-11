@@ -133,7 +133,7 @@ html,body{
 
 .testi_item{
     background-color: rgb(17, 17, 17);
-    margin: 3% 2%;
+    /* margin: 3% 2%; */
     padding: 2%;
     border-style: solid;
     border-color: #CC9835;
@@ -169,12 +169,12 @@ html,body{
 
 .scroll_indicator{
     text-align:center;
-    padding-top: 140px;
+    padding-top: 120px;
     z-index: 3;
     opacity: 0;
     position: absolute;
     height: auto;
-    background:rgba(48, 48, 48, 0.9);
+    background:rgba(32, 32, 32, 0.9);
     color: #CC9835;
     top:0;
     bottom:0;
@@ -182,7 +182,8 @@ html,body{
     right:0;
     margin: auto;
     transition: 0.5s;
-    font-size: 23px;
+    font-size: 30px;
+    font-family: 'Jost', sans-serif;
     
 }
 
@@ -258,12 +259,12 @@ html,body{
 
 
 .testi_flexbox{
-    padding: 5% 0;
+    padding: 8% 0;
     /* display: flex;
     flex-wrap: wrap; */
     /* justify-content: center;
     align-items: center; */
-    width: 700px;
+    width: 680px;
     margin: auto;
 }
 
@@ -411,7 +412,7 @@ html,body{
 
 #icon_links:hover{
     background-color:rgba(204, 152, 53, 0.5);
-    transition: 0.4s;
+    transition: 0.7s;
     
     
 }
