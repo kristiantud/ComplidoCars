@@ -20,4 +20,19 @@ $scrollIndicator.waypoint(function () {
 
 
 
-
+// for the hamburger part
+// also make the navbar bigger
+const menuBtn = document.querySelector('.navbar_burger_wrapper');
+const navBar = document.querySelector('.navbar_');
+let menuOpen = false;
+menuBtn.addEventListener('click', () => {
+    if (!menuOpen){
+        menuBtn.classList.add('open');
+        navBar.classList.add('open');
+        menuOpen = true;
+    } else {
+        menuBtn.classList.remove('open');
+        navBar.classList.remove('open');
+        menuOpen = false;
+    }
+});
