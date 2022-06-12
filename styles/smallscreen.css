@@ -22,23 +22,24 @@ html,body{
     position: absolute;
     height: 100px;
     width: 100%;
-    background-color: rgba(0,0,0,0.8);
+    /* background-color: rgba(0,0,0,0.5); */
     transition: all .5s ease-in-out;
 }
 
 #nav_title {
-    margin-top: 25px;
+    margin-top: 30px;
     margin-left: 10%;
     position: absolute;
     left: 0;
     font-family: 'Bebas Neue', cursive;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
+    opacity: 0;
 
 }
 
 #nav_cs{
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .navbar_burger_wrapper{
@@ -196,7 +197,7 @@ html,body{
 
 .scroll_indicator{
     text-align:center;
-    padding-top: 105px;
+    padding-top: 125px;
     z-index: 3;
     opacity: 1;
     position: absolute;
@@ -263,10 +264,10 @@ html,body{
     color: white;
     position: relative;
     font-family: 'Jost', sans-serif;
-    height: 150px;
+    height: 200px;
     overflow-y: scroll;
-    font-size: 18px;
-    margin: 10% 5%;
+    font-size: 17px;
+    margin: 10% 8%;
     margin-bottom: 0;
     padding: 0 6%;
     
