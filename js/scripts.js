@@ -36,3 +36,11 @@ menuBtn.addEventListener('click', () => {
         menuOpen = false;
     }
 });
+
+function closeNav(){
+    if (menuOpen){
+        menuBtn.classList.remove('open');
+        navBar.classList.remove('open');
+        menuOpen = false;
+    }
+}

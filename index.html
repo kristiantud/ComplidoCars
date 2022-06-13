@@ -37,6 +37,20 @@
                         <div class="navbar_burger"></div>
                     </div>
                     
+                    <div class="nav_items">
+                        <ul>
+                            <a href="#about" onclick="closeNav()"><li>about</li></a>
+                            <a href="#testimonials" onclick="closeNav()"><li>testimonials</li></a>
+                            <a href="#main_footer" onclick="closeNav()"><li>leave a message</li></a>
+                        </ul>
+                    </div>
+
+                    <div class="nav_links">
+                        <span>Follow me!</span>
+                        <br>
+                        <a href="https://www.facebook.com/IsaiahSMP" target="_blank"><image src="./images/icons/fb_dark.png" id="nav_icons"></image></a>
+                        <a href="https://www.instagram.com/isaiahsmp/" target="_blank"><image src="./images/icons/ig_dark.png" id="nav_icons"></image></a>
+                    </div>
 
                 </div>
                 <div class="hero_bg">
@@ -54,7 +68,7 @@
             
             </div>
 
-            <div class="about">
+            <div class="about" id="about">
                 <div class="about_content_wrapper">
                     <span id="about_title">excellent</span>
                     <br>
@@ -64,7 +78,7 @@
                 </div>
             </div>
 
-            <div class="testimonials">
+            <div class="testimonials" id="testimonials">
                 <div class="testi_flexbox" id="testi_flexbox">
                     
 
@@ -156,7 +170,7 @@
 
             <div class="footer">
                 
-                <div class="main_footer">
+                <div class="main_footer" id="main_footer">
                     <div class="email_section">
                         <span id="email_message">leave a message</span>
                         <hr>

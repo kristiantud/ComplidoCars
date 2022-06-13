@@ -43,7 +43,7 @@ html,body{
 }
 
 .navbar_burger_wrapper{
-    margin-top: 20px;
+    margin-top: 40px;
     height: 60px;
     width: 60px;
     position: absolute;
@@ -197,7 +197,7 @@ html,body{
 
 .scroll_indicator{
     text-align:center;
-    padding-top: 125px;
+    padding-top: 105px;
     z-index: 3;
     opacity: 1;
     position: absolute;
@@ -264,14 +264,14 @@ html,body{
     color: white;
     position: relative;
     font-family: 'Jost', sans-serif;
-    height: 200px;
+    height: 150px;
     overflow-y: scroll;
-    font-size: 17px;
+    font-size: 14px;
     margin: 10% 8%;
     margin-bottom: 0;
     padding: 0 6%;
-    
-    text-align: center;
+    /* text-indent: 35px; */
+    text-align: left;
     z-index:1;
 }
 
