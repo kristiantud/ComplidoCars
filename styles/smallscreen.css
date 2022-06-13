@@ -198,7 +198,7 @@ html,body{
 
 .hero_bg{
     height: 100%;
-    background: rgba(0, 0, 0, 0.8);
+    background: #02020ec9;
     position:relative;
     
 }
@@ -267,7 +267,7 @@ html,body{
 }
 
 .testimonials{
-    background-color:black;
+    background-color:#02020e;
     height: auto;
     width: 100%;
 
@@ -321,7 +321,7 @@ html,body{
 }
 
 .testi_item{
-    background-color: rgb(17, 17, 17);
+    background-color: #030313;
     /* margin: 10% 0; */
     padding: 0 3.5%;
     border-style: solid;
@@ -359,7 +359,7 @@ html,body{
     position: absolute;
     max-height: 100px;
     max-width: 100px;
-    opacity: 0.1;
+    opacity: 0.2;
     z-index: 0;
 }
 
@@ -402,7 +402,7 @@ html,body{
 .main_footer{
     height: auto;
     width: auto;
-    background-color:rgb(15, 15, 15);
+    background-color: #02020ef6;
     padding-top: 15%;
     padding-bottom: 5%;
 }
@@ -429,7 +429,7 @@ html,body{
 #message{
     height: 200px;
     width: 100%;
-    background-color: black;
+    background-color: #02020e;
     border-color:  white;
     border-width: thin;
     color: white;
@@ -443,7 +443,7 @@ html,body{
     box-sizing: border-box;
     height: 50px;
     width: 100%;
-    background-color:black;
+    background-color:#02020e;
     border-color: white;
     border-width: thin;
     color: white; 
@@ -472,7 +472,7 @@ html,body{
     margin-top: 10%;
     padding: 1% 0;
     width: 60%;
-    background-color: black;
+    background-color: #02020e;
     color: white;
     border: thin solid #CC9835;
     font-size: 20px;
@@ -518,7 +518,7 @@ html,body{
 .bottom_footer{
     text-align:center;
     height: auto;
-    background-color: black;
+    background-color: #02020e;
     color: white;
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
