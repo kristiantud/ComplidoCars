@@ -14,6 +14,7 @@ html,body{
     margin:0;
     padding: 0;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 
 }
 
@@ -24,17 +25,17 @@ html,body{
     width: 100%;
     /* background-color: rgba(0,0,0,0.5); */
     transition: all .5s ease-in-out;
+    text-align:center;
 }
 
 #nav_title {
-    margin-top: 30px;
-    margin-left: 10%;
-    position: absolute;
-    left: 0;
     font-family: 'Bebas Neue', cursive;
     color: white;
     font-size: 25px;
     opacity: 0;
+    position: absolute;
+    visibility: hidden;
+
 
 }
 
@@ -67,7 +68,11 @@ html,body{
 
 .navbar_burger::before,
 .navbar_burger::after{
-
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
     content: '';
     position: absolute;
     height: 3px;
@@ -101,9 +106,82 @@ html,body{
 
 .navbar_.open{
     transition: all .5s ease-in-out;
-    background-color: rgb(204, 151, 53);
+    background-color: rgba(204, 151, 53, 0.938);
     height: 100vh;
+    position:fixed;
 }
+
+.navbar_.open .nav_items{
+    visibility:visible;
+    transition: all .5s ease-in-out;
+    padding-top: 30vh;
+    opacity: 1;
+}
+
+
+
+.navbar_.open .nav_links{
+    transition: all .3s ease-in-out;
+    visibility:visible;
+    opacity: 1;
+}
+
+.navbar_.open #nav_title{
+    transition: all .5s ease-in-out;
+    opacity: 1;
+    /* display: inline-block; */
+    
+}
+
+.nav_items{
+    font-family: 'Jost', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+
+.nav_links{
+    font-family: 'Jost', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease-in-out;
+    padding-top: 100px;
+}
+
+.nav_items ul{
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+
+.nav_items li{
+    list-style: none;
+    padding: 10px;
+}
+
+.nav_items a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav_items a:hover{
+    color: rgb(0, 0, 0);
+    transition: all .2s ease-in-out;
+}
+
+#nav_icons{
+    height: 25px;
+    width: 25px;
+    margin: 8px;
+}
+
 
 .hero {
     height: 100vh;
@@ -271,7 +349,7 @@ html,body{
     margin-bottom: 0;
     padding: 0 6%;
     /* text-indent: 35px; */
-    text-align: left;
+    text-align: center;
     z-index:1;
 }
 
