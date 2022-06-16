@@ -12,6 +12,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+        <script src="https://kit.fontawesome.com/020e1867a2.js" crossorigin="anonymous"></script>
+        
+
         <!-- font headers -->
         <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
@@ -26,9 +29,6 @@
     </head>
 
     <body>
-        <script>
-            AOS.init();
-        </script>
         <div class="site_wrapper">
             <div class="hero">
                 <div class="navbar_">
@@ -80,20 +80,6 @@
 
             <div class="testimonials" id="testimonials">
                 <div class="testi_flexbox" id="testi_flexbox">
-                    
-
-                    <!-- <div class="testi_item">
-                        <div class="testi_content">
-                            <image src="./images/quotes1.png" id="in_quotes"></image>
-                            <div class="testi_message">
-                                <span>I have got to say this was one of the best sales experiences of my life.  Professional, attentive and respectful of how I wanted the sales experience to go. From Isaiah in Sales, then Kelly in Finance, it was a pleasure to deal with the team at SMP. Great service, price and selection. Will back to purchase here again, no doubt!</span>
-                            </div>
-                            <image src="./images/quotes2.png" id="out_quotes"></image>
-                        </div>
-                        <div class="testi_sender">
-                            <span id="testi_sender_name"><span id="testi_initial">J</span>ay <span id="testi_initial"></span></span>
-                        </div>
-                    </div> -->
 
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
                         <div class="carousel-inner">
@@ -161,13 +147,30 @@
                       </div>
 
                     
-
-                    
-
-                    
                 </div>
             </div>
-
+            <div class="location">
+                <div class="contact_flexbox">
+                    <div id="map" ></div>
+                    <div class="contact_information">
+                        <div class="contact_information_wrapper">
+                            <span id="contact_title">Get in touch with me</span><br>
+                            <span id="contact_subtitle">Here we can give the user more information about how they can get in touch with you when they end up visiting you at SMP. 
+                                We can also talk about how they can get a hold of you when they call the SMP number, etc</span>
+                            </span>
+                            <div class="contact_infos">
+                                <i class="fas fa-map-marker-alt"></i><span id="contact_item">715 Circle Dr E, Saskatoon, SK S7K 0V1</span>
+                                <br>
+                                <i class="fas fa-phone-alt"></i><span id="contact_item">(306) 242-0276</span>
+                                <br>
+                                <i class="fas fa-envelope "></i><span id="contact_item">icomplido@smpchev.ca</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
             <div class="footer">
                 
                 <div class="main_footer" id="main_footer">
@@ -229,5 +232,9 @@
         <script src="./js/jquery.waypoints.min.js"></script>
         <script src="./js/scripts.js"></script>
         <!-- <script src="./testimonies.js"></script> -->
+        <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVRVZoeoTJuPOjJJzV8lRkteTnO2800Xc&libraries=places&callback=initMap&v=weekly"
+      async
+    ></script>
     </body>
 </html>

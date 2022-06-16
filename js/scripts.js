@@ -44,3 +44,24 @@ function closeNav(){
         menuOpen = false;
     }
 }
+
+AOS.init();
+// google maps stuff
+
+            window.onload = function(){
+                
+                var options = {
+                zoom: 15,
+                center: {lat:52.15745727511325,lng: -106.65551290152224}
+            
+            }
+    
+            var map = new google.maps.Map(document.getElementById('map'),options);
+            
+
+            var marker = new google.maps.Marker({
+                position: {lat:52.15745727511325, lng:-106.65551290152224},
+                map: map
+            });
+            };
+

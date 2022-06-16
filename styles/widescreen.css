@@ -440,6 +440,86 @@ html,body{
 
 
 
+.location {
+    background-color: #030314f5;
+    height: auto;
+    width: 100%;
+}
+
+.contact_information{
+    width: 600px;
+    display: table;
+}
+
+.contact_information_wrapper{
+    display: table-cell;
+	vertical-align: middle;
+    padding: 4% 10%;
+}
+
+.contact_flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    padding: 10% 0;
+    justify-content: center;
+}
+
+
+
+
+
+#map{
+    height: 500px; 
+    width: 500px;
+    /* margin: auto; */
+    
+}
+
+#contact_title{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 65px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+/* #contact_hr{
+    background-color:#CC9835;
+    width: 30%;
+    height: 3px;
+    border-style: none;
+    float: left;
+    margin-right: 100%;
+} */
+
+#contact_subtitle{
+    font-family: 'Jost',sans-serif;
+    color: #CC9835;
+    font-size: 18px;
+    font-style: italic;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+.contact_infos{
+    font-family: 'Jost',sans-serif;
+    color: white;
+}
+
+.contact_infos i{
+    font-size: 25px;
+}
+
+#contact_item{
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+
+
+
+
 .footer{
     background-image: url(../images/cars2.jpg);
     background-size: cover;
@@ -453,14 +533,14 @@ html,body{
     height: auto;
     width: auto;
     background-color: #02020ed8;
-    padding-top: 5%;
-    padding-bottom: 1%;
+    padding-top: 3%;
+    padding-bottom: 2%;
 }
 
 
 
 .input_group{
-    padding-bottom: 5%;
+    padding-bottom: 4%;
     position: relative;
 
 }
