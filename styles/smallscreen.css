@@ -152,7 +152,7 @@ html,body{
     opacity: 0;
     visibility: hidden;
     transition: all .3s ease-in-out;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .nav_links_wrapper{
@@ -259,13 +259,13 @@ html,body{
     font-size: 20px;
 }
 
-.hero_bottom{
+/* .hero_bottom{
     position: absolute;
     bottom: 0;
     height: 80px;
     width: 100%;
     background: linear-gradient(180deg, rgba(10, 11, 13, 0) 0%, rgba(2, 8, 20, 0.8) 45.44%, #0A0B0D 100%);
-}
+} */
 
 
 .about{
@@ -295,7 +295,7 @@ html,body{
     background-color: #02020ec4;
     width: 20%;
     
-    margin-top: -10px;
+    margin-top: 0px;
     height: 1px;
     border-style: none;
 }
@@ -336,6 +336,7 @@ html,body{
     display: table-cell;
 	vertical-align: middle;
     text-align: center;
+    padding: 0 5%;
 }
 
 
@@ -357,14 +358,14 @@ html,body{
 }
 
 .testi_item{
-    width: 100vw;
+    width: 100%;
     /* margin: auto; */
-    margin: 25px 25px;
+    margin: 25px 15%;
     /* background-color: #04041f; */
 }
 
 #testimonial_hr{
-    width: 80%;
+    width: 50%;
     background-color: white;
     height: 1px;
     border-style: none;
@@ -436,7 +437,8 @@ html,body{
 .contact_information_wrapper{
     display: table-cell;
 	vertical-align: middle;
-    padding: 10% 10%;
+    padding: 15% 10%;
+    text-align: center;
 }
 
 .contact_flexbox{
@@ -464,6 +466,7 @@ html,body{
     font-size: 50px;
     display: inline-block;
     margin-bottom: 5px;
+    
 }
 
 /* #contact_hr{
@@ -480,6 +483,7 @@ html,body{
     color: #FFCA41;
     font-size: 18px;
     font-style: italic;
+    text-align:center;
     display: inline-block;
     padding-bottom: 25px;
 }
@@ -659,7 +663,7 @@ html,body{
 
 #footer_cs{
     font-size: 30px;
-    color:rgb(204, 152, 53);
+    color:#FFCA41;
 }
 
 

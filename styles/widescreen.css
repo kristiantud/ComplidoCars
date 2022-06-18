@@ -142,7 +142,7 @@ html,body{
     opacity: 0;
     visibility: hidden;
     transition: all .3s ease-in-out;
-    padding-top: 120px;
+    padding-top: 50px;
 }
 
 .nav_links_wrapper{
@@ -307,7 +307,7 @@ html,body{
     background-color: #02020ec4;
     width: 30%;
     margin-left: 0;
-    margin-top: -10px;
+    margin-top: 0px;
     height: 1px;
     border-style: none;
 }
