@@ -142,7 +142,7 @@ html,body{
     opacity: 0;
     visibility: hidden;
     transition: all .3s ease-in-out;
-    padding-top: 150px;
+    padding-top: 120px;
 }
 
 .nav_links_wrapper{
@@ -186,8 +186,8 @@ html,body{
 }
 
 #nav_icons{
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
     margin: 8px;
 }
 
@@ -297,7 +297,6 @@ html,body{
     flex-wrap: wrap;
     width: auto;
     justify-content: center;
-    color: white;
 }
 
 
@@ -305,10 +304,10 @@ html,body{
 
 
 #about_hr{
-    background-color:#FFCA41;
-    width: 20%;
+    background-color: #02020ec4;
+    width: 30%;
     margin-left: 0;
-    margin-top: 0;
+    margin-top: -10px;
     height: 1px;
     border-style: none;
 }
@@ -521,7 +520,7 @@ html,body{
 .main_footer{
     height: auto;
     width: auto;
-    background-color: #000000cb;
+    background-color: #000000c4;
     padding-top: 3%;
     padding-bottom: 2%;
 }
@@ -554,7 +553,7 @@ html,body{
 #message{
     height: 200px;
     width: 100%;
-    background-color: #02020e;
+    background-color: #02020e73;
     border-color:  white;
     border-width: thin;
     color: white;
@@ -568,7 +567,7 @@ html,body{
     box-sizing: border-box;
     height: 40px;
     width: 100%;
-    background-color:#02020e;
+    background-color:#02020e73;
     border-color: white;
     border-width: thin;
     color: white; 
@@ -597,7 +596,7 @@ html,body{
     margin-top: 6%;
     padding: 1% 0;
     width: 60%;
-    background-color: #02020e;
+    background-color: #02020e73;
     color: white;
     border: thin solid #FFCA41;
     font-size: 20px;
