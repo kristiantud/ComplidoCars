@@ -18,6 +18,8 @@ html,body{
 
 }
 
+/* nav stuff */
+
 .navbar_{
     z-index: 2;
     position: absolute;
@@ -101,7 +103,7 @@ html,body{
 
 .navbar_.open{
     transition: all .5s ease-in-out;
-    background-color: rgba(204, 151, 53, 0.95);
+    background-color: rgba(216, 169, 49, 0.95);
     height: 100vh;
     position: fixed;
 }
@@ -172,7 +174,7 @@ html,body{
 
 
 
-
+/* hero stuff */
 
 
 
@@ -181,11 +183,8 @@ html,body{
     width: 100%;
     text-align: left;
     background-color: gray;
-    background-image: url('../images/header.jpg');
+    background: url('../images/isaiah_imgs/3_2.jpg') no-repeat center;
     background-size: cover;
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size:initial;
 
 }
 
@@ -199,14 +198,14 @@ html,body{
 
 
 #hero_cs{
-    color: #CC9835; 
+    color: #FFCA41; 
     font-size: 105px;
 }
 
 .hero_bottom{
     position: absolute;
     bottom: 0;
-    height: 150px;
+    height: 200px;
     width: 100%;
     background: linear-gradient(180deg, rgba(10, 11, 13, 0) 0%, rgba(5, 16, 39, 0.8) 45.44%, #0A0B0D 100%);
 }
@@ -214,7 +213,7 @@ html,body{
 .title_wrapper{
     position: absolute;
     top: 35%;
-    left: 25%;
+    left: 20%;
     color: white;
 }
 
@@ -238,205 +237,179 @@ html,body{
     font-family: 'Jost', sans-serif;
     border-style:solid;
     border-width: 2px;
-    border-color: #CC9835;
-    color:rgb(233, 233, 233);
+    border-color: #FFCA41;
+    color: white;
     font-size: 20px;
-    box-shadow: inset 0 0 0 0.09px #CC9835;
+    box-shadow: inset 0 0 0 0.09px #FFCA41;
 }
 
-.hero button:hover{
+#hero_button:hover{
+    color: black;
     cursor: pointer;
-    box-shadow: inset 400px 0 0 0 #CC9835 !important;
+    box-shadow: inset 400px 0 0 0 #FFCA41 !important;
     moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
+    
 
 }
 
 #sub_colored{
-    color: #CC9835; 
+    color: #FFCA41; 
 }
 
+/* about stuff */
 
 .about{
+    /* background-image: url(../images/car_background.png); */
     width: 100%;
     height: auto;
     font-family: 'Jost', sans-serif;
     font-size: 20px;
-    background-color: #91691f;
+    background-color: #af8c33;
 
 }
 
 .about_content_wrapper{
-    padding: 5% 2%;
-    width: 40%;
-    margin: auto;
+    padding: 5% 0;
+    display: flex;
     color: white;
-    text-align: justify;
-
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: center;
+    color: white;
 }
+
+
+
+
+
+#about_hr{
+    background-color:#FFCA41;
+    width: 20%;
+    margin-left: 0;
+    margin-top: 0;
+    height: 1px;
+    border-style: none;
+}
+
+#about_image{
+    height: 300px;
+    width: 300px;
+    background: url(/images/isaiah_imgs/5_2.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 1.5%;
+    
+}
+
 
 #about_title{
     font-family: 'Bebas Neue', cursive;
     font-size: 60px;
+    display: block;
+    text-align:left;
 }
+
+#about_title_initials{
+    font-size: 75px;
+}
+
+.about_content_center_wrapper{
+    display: table;
+    padding: 1%;
+}
+
+#about_content{
+    width: 400px;
+    display: table-cell;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+/* testimonial stuff */
 
 
 .testimonials{
     background-color: #02020e;
     height: auto;
     width: 100%;
-
+    text-align:center;
+    padding: 5% 0;
 }
 
+.testi_flexbox{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    
+}
 
 .testi_item{
-    background-color: #030313;
-    /* margin: 3% 2%; */
-    padding: 2%;
-    border-style: solid;
-    border-color: #CC9835;
-    border-width: thin;
-    width: auto;
-    /* box-shadow: 0 0 5px 5px #64686b8e; */
-    
-    
+    width: 316px;
+    /* margin: auto; */
+    margin: 0 25px;
 }
 
-.testi_content{
-    width: auto;
-    position:relative;
-    /* border: 2px;
-    border-color: white;
-    border-style: solid; */
-    
-}
-
-.testi_message{
+#quote_text{
     color: white;
-    position: relative;
-    font-family: 'Jost', sans-serif;
-    height: 150px;
-    overflow-y: scroll;
-    font-size: 20px;
-    margin: 5% 8%;
-    margin-bottom: 0;
-    padding: 0 2%;
-    text-align: center;
-    z-index: 2;
-}
-
-.scroll_indicator{
-    text-align:center;
-    padding-top: 120px;
-    z-index: 3;
-    opacity: 0;
-    position: absolute;
-    height: auto;
-    background:rgba(32, 32, 32, 0.9);
-    color: #CC9835;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    margin: auto;
-    transition: 0.5s;
-    font-size: 30px;
-    font-family: 'Jost', sans-serif;
-    
-}
-
-.section {
-    height: 100px;
-    position: relative;
-    width: 100%;
-}
-
-.section::before {
-    animation: bounce 1s ease infinite;
-    bottom: 2rem;
-    color: #CC9835;
-    content: '╲╱';
     font-size: 15px;
-    left: 50%;
-    letter-spacing: -1px;
-    line-height: 4rem;
-    margin-left: -3rem;
-    opacity: 0.8;
-    position: absolute;
-    text-align: center;
-    width: 6rem;
-}
-
-@keyframes bounce {
-    50% {
-        transform: translateY(-20%);
-    }
-}
-
-#testi_message_span{
-    color: white;
     font-family: 'Jost', sans-serif;
-    font-size: 20px;
-    
+}
+
+#quote_hr{
+    background-color:#FFCA41;
+    width: 20px;
+    height: 1px;
+    border-style: none;
+}
+
+#quote_name{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: #FFCA41;
+}
+
+#quote_initials{
+    font-size: 30px;
+}
+
+.quote_img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 #in_quotes, #out_quotes{
     position: absolute;
-    max-height: 120px;
-    max-width: 120px;
-    opacity: 0.2;
-    z-index: 1;
+    height: 25px;
+    width: 25px;
 }
 
 #in_quotes{
-    top: 5%;
     left: 0;
-    
+    top: 0;
 }
 
 #out_quotes{
-    bottom: 0;
     right: 0;
-}
-
-.testi_sender{
-    text-align:center;
+    bottom: 0;
 }
 
 
-#testi_initial{
-    font-size: 60px;
-}
-
-#testi_sender_name{
-    color: #CC9835;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 50px;
-    
-}
 
 
-.testi_flexbox{
-    padding: 8% 0;
-    /* display: flex;
-    flex-wrap: wrap; */
-    /* justify-content: center;
-    align-items: center; */
-    width: 680px;
-    margin: auto;
-}
 
-.carousel-control-next{
-    width: 10%;
-    padding-right: 5%;
-}
 
-.carousel-control-prev{
-    width: 10%;
-    padding-left: 5%;
-}
 
 
 
@@ -485,7 +458,7 @@ html,body{
 }
 
 /* #contact_hr{
-    background-color:#CC9835;
+    background-color:#FFCA41;
     width: 30%;
     height: 3px;
     border-style: none;
@@ -495,7 +468,7 @@ html,body{
 
 #contact_subtitle{
     font-family: 'Jost',sans-serif;
-    color: #CC9835;
+    color: #FFCA41;
     font-size: 18px;
     font-style: italic;
     display: inline-block;
@@ -521,18 +494,15 @@ html,body{
 
 
 .footer{
-    background-image: url(../images/cars2.jpg);
+    background: url(../images/isaiah_imgs/4.jpg) center no-repeat;
     background-size: cover;
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size:initial;
 
 }
 
 .main_footer{
     height: auto;
     width: auto;
-    background-color: #02020ed8;
+    background-color: #000000cb;
     padding-top: 3%;
     padding-bottom: 2%;
 }
@@ -590,9 +560,9 @@ html,body{
 }
 
 .email_section hr{
-    background-color:#CC9835;
+    background-color:#FFCA41;
     width: 30%;
-    height: 3px;
+    height: 1px;
     border-style: none;
 
 }
@@ -610,14 +580,15 @@ html,body{
     width: 60%;
     background-color: #02020e;
     color: white;
-    border: thin solid #CC9835;
+    border: thin solid #FFCA41;
     font-size: 20px;
     font-family: 'Jost', sans-serif;
-    box-shadow: inset 0 0 0 0 #CC9835;
+    box-shadow: inset 0 0 0 0 #FFCA41;
 }
 
 #email_button:hover{
-    box-shadow: inset 500px 0 0 0 #CC9835;
+    color: black;
+    box-shadow: inset 500px 0 0 0 #FFCA41;
     cursor: pointer;
     moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
@@ -646,7 +617,7 @@ html,body{
     /* margin: 1%; */
     /* border-style: solid;
     border-width: thin;
-    border-color: #CC9835;
+    border-color: #FFCA41;
     border-radius: 10%; */
 }
 
@@ -681,7 +652,7 @@ html,body{
 
 #footer_cs{
     font-size: 40px;
-    color:rgb(204, 152, 53);
+    color:#FFCA41;
 }
 
 
