@@ -221,11 +221,14 @@ html,body{
 
 
 .title_wrapper{
-    position: absolute;
-    top: 45%;
-    left: 9%;
+    /* position: absolute; */
+    /* top: 40%;
+    left: 9%; */
+    text-align: center;
     color: white;
     width: 80%;
+    margin: auto;
+    padding-top: 350px;
 }
 
 #hero_cs{
@@ -282,7 +285,7 @@ html,body{
     padding: 15% 0;
     display: flex;
     color: white;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     width: auto;
     justify-content: center;
 }
@@ -305,7 +308,7 @@ html,body{
     width: 300px;
     background: url(/images/isaiah_imgs/5_2.jpg) center no-repeat;
     background-size: cover;
-    border-radius: 50%;
+    border-radius: 5%;
     margin: 1.5%;
     
 }

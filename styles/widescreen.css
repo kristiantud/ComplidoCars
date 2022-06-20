@@ -315,9 +315,9 @@ html,body{
 #about_image{
     height: 300px;
     width: 300px;
-    background: url(/images/isaiah_imgs/5_2.jpg) center no-repeat;
+    background: url('/images/isaiah_imgs/5_2.jpg') center no-repeat;
     background-size: cover;
-    border-radius: 50%;
+    border-radius: 5%;
     margin: 1.5%;
     
 }
@@ -343,6 +343,7 @@ html,body{
     width: 400px;
     display: table-cell;
 	vertical-align: middle;
+    font-size: 16px;
 }
 
 
