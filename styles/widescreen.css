@@ -352,7 +352,7 @@ html,body{
 .insta-posts{
     height: auto;
     width: 100%;
-    background: #0A0B0D;
+    background: #030318;
 }
 
 .insta-posts h3{
@@ -364,7 +364,7 @@ html,body{
 }
 
 .insta-posts hr{
-    background-color: #FFCA41;
+    background-color: #af8c33;
     width: 100px;
     height: 1px;
     border-style: none;
@@ -382,19 +382,19 @@ html,body{
 .instagram_item{
     position: relative;
     margin: 0;
-    padding: 10px;
+    padding: 15px;
     
 }
 
 .instagram_item img{
     position: absolute;
-    height: 267.5px;
-    width: 267.5px;
+    height: 353px;
+    width: 353px;
 }
 
 .hover_div{
-    height: 267.5px;
-    width: 267.5px;
+    height: 353px;
+    width: 353px;
     background-color: #FFCA41;
 }
 
@@ -409,11 +409,12 @@ html,body{
 
 #ig_logo{
     position: absolute;
+    /* display:none; */
+    opacity: 0;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
     -webkit-transform: translate(-50%, -50%);
-    display: hidden;
     height: 30px;
     width: 30px;
     

@@ -65,3 +65,6 @@ AOS.init();
             });
             };
 
+// for the ig stuff
+const ig_logo = document.getElementsByName('ig_logo');
+
