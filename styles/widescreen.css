@@ -400,7 +400,7 @@ html,body{
 
 .instagram_item img:hover{
     cursor:pointer;
-    opacity: 50%;
+    opacity: 70%;
     moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
@@ -446,6 +446,13 @@ html,body{
     width: 316px;
     /* margin: auto; */
     margin: 0 25px;
+    margin-bottom: 30px;
+}
+
+#ashley_testi{
+    margin-top: 20px;
+    margin-left: 391px;
+    margin-bottom: 0;
 }
 
 #quote_text{
@@ -684,6 +691,12 @@ html,body{
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
+}
+
+#email_disclaimer{
+    color:white;
+    font-family: 'Jost', sans-serif;
+    font-style: italic;
 }
 
 

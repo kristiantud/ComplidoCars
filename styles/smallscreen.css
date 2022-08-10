@@ -205,7 +205,7 @@ html,body{
     width: 100%;
     text-align: left;
     background-color: gray;
-    background: url('../images/isaiah_imgs/1.jpg') no-repeat center;
+    background: url('../images/isaiah_imgs/compressed/1.jpg') no-repeat center;
     background-size: cover;
 
 
@@ -213,7 +213,7 @@ html,body{
 
 .hero_bg{
     height: 100%;
-    background: #02020e9c;
+    background: #01010a9c;
     position:relative;
     
 }
@@ -306,9 +306,9 @@ html,body{
 #about_image{
     height: 300px;
     width: 300px;
-    background: url(/images/isaiah_imgs/5_2.jpg) center no-repeat;
+    background: url(/images/isaiah_imgs/compressed/5_2.jpg) center no-repeat;
     background-size: cover;
-    border-radius: 5%;
+    /* border-radius: 5%; */
     margin: 1.5%;
     
 }
@@ -422,8 +422,56 @@ html,body{
 }
 
 
+/* insta posts*/ 
+.insta-posts{
+    height: auto;
+    width: 100%;
+    background: #030318;
+}
 
+.insta-posts h3{
+    padding-top: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
 
+.insta-posts hr{
+    background-color: #af8c33;
+    width: 100px;
+    height: 1px;
+    border-style: none;
+}
+
+.insta-posts-wrapper{
+    padding-top: 25px;
+    padding-bottom: 100px;
+    width: 100%;
+    margin: auto;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.instagram_item{
+    padding: 15px 10px;
+    width: 90%;
+    margin:auto;
+    
+}
+
+.instagram_item img{
+    height: auto;
+    width: 100%;
+}
+
+.hover_div{
+    display: none;
+}
+
+#ig7,#ig8,#ig9{
+    display: none;
+}
 
 
 .location {
@@ -508,7 +556,7 @@ html,body{
 
 
 .footer{
-    background: url(../images/isaiah_imgs/4.jpg) center no-repeat;
+    background: url(../images/isaiah_imgs/compressed/4.jpg) center no-repeat;
     background-size: cover;
 
 }
@@ -574,6 +622,12 @@ html,body{
     height: 1px;
     border-style: none;
 
+}
+
+#email_disclaimer{
+    color:white;
+    font-family: 'Jost', sans-serif;
+    font-style: italic;
 }
 
 #form_submit_note{
