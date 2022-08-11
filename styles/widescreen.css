@@ -111,7 +111,7 @@ html,body{
 .navbar_.open .nav_items{
     visibility:visible;
     transition: all .5s ease-in-out;
-    padding-top: 40vh;
+    padding-top: 30vh;
     opacity: 1;
 }
 
@@ -341,11 +341,16 @@ html,body{
 
 #about_content{
     width: 400px;
-    display: table-cell;
-	vertical-align: middle;
-    font-size: 16px;
+    /* display: table-cell;
+	vertical-align: middle; */
 }
 
+#about_subtitle{
+    display: inline-block;
+    text-align: justify;
+    font-size: 16px;
+    
+}
 
 
 /* instagram stuff */
@@ -449,11 +454,11 @@ html,body{
     margin-bottom: 30px;
 }
 
-#ashley_testi{
+/* #ashley_testi{
     margin-top: 20px;
     margin-left: 391px;
     margin-bottom: 0;
-}
+} */
 
 #quote_text{
     color: white;

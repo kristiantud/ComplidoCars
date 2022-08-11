@@ -114,7 +114,7 @@ html,body{
 .navbar_.open .nav_items{
     visibility:visible;
     transition: all .5s ease-in-out;
-    padding-top: 30vh;
+    padding-top: 25vh;
     opacity: 1;
 }
 
@@ -282,7 +282,8 @@ html,body{
 }
 
 .about_content_wrapper{
-    padding: 15% 0;
+    padding: 75px 0;
+    padding-bottom: 45px;
     display: flex;
     color: white;
     flex-wrap: wrap-reverse;
@@ -308,7 +309,7 @@ html,body{
     width: 300px;
     background: url(/images/isaiah_imgs/compressed/5_2.jpg) center no-repeat;
     background-size: cover;
-    /* border-radius: 5%; */
+    border-radius: 50%;
     margin: 1.5%;
     
 }
@@ -323,6 +324,8 @@ html,body{
 
 #about_subtitle{
     font-size: 15px;
+    display: inline-block;
+    text-align: justify;
 }
 
 #about_title_initials{
@@ -339,7 +342,7 @@ html,body{
     display: table-cell;
 	vertical-align: middle;
     text-align: center;
-    padding: 30px 10%;
+    padding: 30px 20px;
 }
 
 
