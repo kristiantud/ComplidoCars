@@ -256,9 +256,9 @@ html,body{
 
 #hero_subtitle{
     font-family: 'Jost', sans-serif;
-    font-size: 30px;
+    font-size:25px;
     display: block;
-    width: 70%;
+    width: 100%;
 
 }
 #hero_subtitle_thankspage{
